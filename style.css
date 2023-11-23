@@ -443,8 +443,13 @@ video {
   z-index: 99;
   /* background-color: red; */
 }
+#head h2{
+  font-size: 1.13vw;
+  display: flex;
+  line-height: 25px;
+}
 #f2 h3 {
-  font-size: 1.6vw;
+  font-size: 1.13vw;
   white-space: nowrap;
   text-transform: uppercase;
   color: #000;
@@ -453,7 +458,7 @@ video {
 }
 
 #f3 h3 {
-  font-size: 1.6vw;
+  font-size: 1.13vw;
   white-space: nowrap;
   text-transform: uppercase;
   color: #000;
