@@ -1,0 +1,289 @@
+
+.page1 {
+    height: 100vh;
+    width: 100%;
+    /* background-color: #000; */
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+  }
+
+  .page1 img{
+    height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+ 
+  }
+
+  .card {
+    left: 6%;
+    height: 43%;
+    width: 18%;
+    z-index: 0;
+    text-align: center;
+    padding: 120x;
+    /* Increase padding for a bigger card */
+    border-radius: 5px;
+
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: slideInUp 1s ease-in-out;
+    z-index: 1;
+    /* Ensure the card appears above particles */
+    position: absolute;
+
+}
+
+@keyframes slideInUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+h1 {
+    color: #007bff;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    padding :50px;
+}
+
+/* Button styles */
+.vote-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e44d26;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.vote-button:hover {
+    background-color: #c53921;
+}
+
+/* Confetti effect */
+.confetti {
+  position: absolute;
+width: 12px;
+height: 8px;
+background-color: #e44d26;
+opacity: 1;
+border-radius: 50%;
+animation: confetti-fall linear 3s both;
+}
+
+@keyframes confetti-fall {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(100vh);
+    }
+}
+
+
+
+
+
+
+
+
+
+.page2 {
+    height: 100vh;
+    width: 100%;
+    /* background-color: #000; */
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+  }
+
+  .page2 img{
+    height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+  /* position: fixed; */
+  }
+
+  .sard {
+    left: 6%;
+    height: 43%;
+    width: 18%;
+    z-index: 0;
+    text-align: center;
+    padding: 120x;
+    /* Increase padding for a bigger card */
+    border-radius: 5px;
+
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: slideInUp 1s ease-in-out;
+    z-index: 1;
+    /* Ensure the card appears above particles */
+    position: absolute;
+
+}
+
+@keyframes slideInUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+h1 {
+    color: #007bff;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    padding :50px;
+}
+
+/* Button styles */
+.election-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e44d26;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.election-button:hover {
+    background-color: #c53921;
+}
+
+/* Confetti effect */
+.confetti {
+  position: absolute;
+width: 12px;
+height: 8px;
+background-color: #e44d26;
+opacity: 1;
+border-radius: 50%;
+animation: confetti-fall linear 3s both;
+}
+
+@keyframes confetti-fall {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(100vh);
+    }
+}
+
+
+.page3 {
+    height: 100vh;
+    width: 100%;
+    /* background-color: #000; */
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+  }
+
+  .page3 img{
+    height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+  /* position: fixed; */
+  }
+
+  .sard {
+    left: 6%;
+    height: 43%;
+    width: 18%;
+    z-index: 0;
+    text-align: center;
+    padding: 120x;
+    /* Increase padding for a bigger card */
+    border-radius: 5px;
+
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: slideInUp 1s ease-in-out;
+    z-index: 1;
+    /* Ensure the card appears above particles */
+    position: absolute;
+
+}
+
+@keyframes slideInUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+h1 {
+    color: #007bff;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    padding :50px;
+}
+
+/* Button styles */
+.election-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e44d26;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.election-button:hover {
+    background-color: #c53921;
+}
+
+/* Confetti effect */
+.confetti {
+  position: absolute;
+width: 12px;
+height: 8px;
+background-color: #e44d26;
+opacity: 1;
+border-radius: 50%;
+animation: confetti-fall linear 3s both;
+}
+
+@keyframes confetti-fall {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(100vh);
+    }
+}
+
+
+
+
